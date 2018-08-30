@@ -1,344 +1,344 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:200,400,500');
 :root {
-    --font_color: #222;
-    --accent: #555;
-    --weight_thin: 200;
-    --weight_normal: 400;
-    --weight_bold: 500;
+	--font_color: #222;
+	--accent: #555;
+	--weight_thin: 200;
+	--weight_normal: 400;
+	--weight_bold: 500;
 }
 body,
 html {
-    overflow-x: hidden;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+	overflow-x: hidden;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 a {
-    text-decoration: none !important;
+	text-decoration: none !important;
 }
 
 .cover_page1 {
-    background: url("assets/page3.jpg") center;
+	background: url("assets/home2.jpg") center;
 }
 .cover_page2 {
-    background: url("assets/page1.jpg") center;
+	background: url("assets/page1.jpg") center;
 }
 .cover_page3 {
-    background: url("assets/page3.jpg") center;
+	background: url("assets/page3.jpg") center;
 }
 .cover_page4 {
-    background: url("assets/page4.jpg") center;
+	background: url("assets/page4.jpg") center;
 }
 
 .section {
-    height: 100%;
-    width: 100%;
-    padding: 0 20px;
-    background-size: cover;
+	height: 100%;
+	width: 100%;
+	padding: 0 20px;
+	background-size: cover;
 }
 .heading {
-    font-family: 'Quicksand';
-    -webkit-font-smoothing: antialiased;
-    font-weight: var(--weight_normal);
-    color: var(--font_color);
-    font-size: 2.2rem;
-    text-align: center;
-    margin-bottom: 12px;
+	font-family: 'Quicksand';
+	-webkit-font-smoothing: antialiased;
+	font-weight: var(--weight_normal);
+	color: var(--font_color);
+	font-size: 2.2rem;
+	text-align: center;
+	margin-bottom: 12px;
 }
 .details {
-    font-family: 'Quicksand';
-    font-size: 0.9rem;
-    text-align: center;
-    font-weight: var(--weight_thin);
-    color: var(--font_color);
+	font-family: 'Quicksand';
+	font-size: 0.9rem;
+	text-align: center;
+	font-weight: var(--weight_thin);
+	color: var(--font_color);
 }
 .sidebar {
-    position: absolute;
-    border: 0;
-    background-color: #181818;
-    width: 250px;
-    left: -370px;
-    top: 0;
-    margin-left: -250px;
-    z-index: 1031;
-    transition: all .8s cubic-bezier(0.53, 0.09, 0, 0.97);
+	position: absolute;
+	border: 0;
+	background-color: #181818;
+	width: 250px;
+	left: -370px;
+	top: 0;
+	margin-left: -250px;
+	z-index: 1031;
+	transition: all .8s cubic-bezier(0.53, 0.09, 0, 0.97);
 }
 .sidebar_cover {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #181818;
-    display: none;
-    z-index: 1030;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #181818;
+	display: none;
+	z-index: 1030;
 }
 
 .nav_head {
-    width: 100%;
-    height: 60px;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: var(--weight_bold);
-    background-color: #fff;
-    line-height: 60px;
-    text-align: center;
-    font-size: 22px;
-    margin-top: 0px;
-    margin-bottom: 20px;
+	width: 100%;
+	height: 60px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: var(--weight_bold);
+	background-color: #fff;
+	line-height: 60px;
+	text-align: center;
+	font-size: 22px;
+	margin-top: 0px;
+	margin-bottom: 20px;
 }
 
 .nav_items {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 60px;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: var(--weight_normal);
-    cursor: pointer;
-    color: var(--font_color);
-    line-height: 60px;
-    text-align: center;
-    font-size: 16px;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 60px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: var(--weight_normal);
+	cursor: pointer;
+	color: var(--font_color);
+	line-height: 60px;
+	text-align: center;
+	font-size: 16px;
 }
 
 .nav_items a {
-    width: 100%;
-    height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 .nav_items span {
-    position: absolute;
-    display: block;
-    width: 0;
-    height: 0;
-    left: 0%;
-    top: 50%;
-    border-radius: 50%;
-    z-index: -1;
+	position: absolute;
+	display: block;
+	width: 0;
+	height: 0;
+	left: 0%;
+	top: 50%;
+	border-radius: 50%;
+	z-index: -1;
 }
 
 #nav_h span {
-    background-color: #5d4037;
+	background-color: #5d4037;
 }
 
 #nav_d span {
-    background-color: #007BFF;
+	background-color: #007BFF;
 }
 
 #nav_f span {
-    background-color: #F44336;
+	background-color: #F44336;
 }
 
 #nav_c span {
-    background-color: #9C27B0;
+	background-color: #9C27B0;
 }
 
 #pp-nav li .active span,
 .pp-slidesNav .active span {
-    background: #fff;
+	background: #fff;
 }
 
 #mainNav {
-    width: 100%;
-    height: 100px;
-    border-color: transparent;
-    background-color: rgb(255,255,255,0);
-    position: none;
-    overflow: hidden;
-    font-family: 'Quicksand', 'Helvetica', 'Arial', 'sans-serif';
-    font-weight: var(--weight_thin);
-    letter-spacing: 1px;
+	width: 100%;
+	height: 100px;
+	border-color: transparent;
+	background-color: rgb(255,255,255,0);
+	position: none;
+	overflow: hidden;
+	font-family: 'Quicksand', 'Helvetica', 'Arial', 'sans-serif';
+	font-weight: var(--weight_thin);
+	letter-spacing: 1px;
 }
 
 #mainNav .brand_pane {
-    position: absolute;
-    pointer-events: none;
-    width: 220px;
-    height: 70px;
-    padding: 5px;
-    border-radius: 35px;
-    text-align: center;
-    left: 50%;
-    top: 0;
-    margin: 15px 0 0 -110px;
-    background-color: #fff;
-    z-index: 5;
+	position: absolute;
+	pointer-events: none;
+	width: 280px;
+	height: 65px;
+	padding: 5px;
+	border-radius: 35px;
+	text-align: center;
+	left: 50%;
+	top: 0;
+	margin: 17px 0 0 -145px;
+	background-color: #fff;
+	z-index: 5;
 }
 
 #mainNav .navbar-brand {
-    height: 100%;
-    pointer-events: all;
-    border-radius: 40px;
-    text-align: end;
-    margin: auto;
+	height: 100%;
+	pointer-events: all;
+	border-radius: 40px;
+	text-align: end;
+	margin: auto;
 }
 
 #mainNav .navbar-brand>.logo {
-    width: 50px;
-    height: 50px;
-    padding: 2px;
-    float: left;
-    margin: 0px 0 0 20px;
+	width: 50px;
+	height: 50px;
+	padding: 2px;
+	margin: -2px 0 0 5px;
+	float: left;
 }
 
 #mainNav .navbar-brand>p {
-    font-family: 'Quicksand';
-    font-size: 2rem;
-    font-weight: var(--weight_bold);
-    color: var(--font_color);
-    letter-spacing: 2px;
-    float: left;
-    margin: 1.5px 20px 0 15px;
+	font-family: 'Quicksand';
+	font-size: 1.7rem;
+	font-weight: var(--weight_bold);
+	color: var(--font_color); 
+	float: left;
+	margin: 4px 15px 0 5px;
 }
 
 #mainNav .navbar-menu1 {
-    position: absolute;
-    width: 50%;
-    left: 0;
-    top: 50%;
-    padding-right: 90px;
-    margin: -20px 0 0 0;
+	position: absolute;
+	width: 50%;
+	left: 0;
+	top: 50%;
+	margin: -20px 0 0 -70px;
 }
 #mainNav .navbar-menu2 {
-    position: absolute;
-    width: 50%;
-    right: 0;
-    padding-left: 90px;
-    margin: 2px auto 0 0;
+	position: absolute;
+	width: 50%;
+	right: 0;
+	margin: 2px -70px 0 0;
 }
 #mainNav .navbar-menu1 > ul, 
 #mainNav .navbar-menu2 > ul {
-    height: 100%;
-    margin: 0 auto;
-    padding: 0 2px 2px 3px;
-    border-radius: 50px;
-    background-color: #fff;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0 2px 2px 3px;
+	border-radius: 50px;
+	background-color: transparent;
 }
-#mainNav .navbar-menu1 > div{
-    position: absolute;
-    width: 50%; 
-    height: 100%;
-    left: 0;
-    background-color: #fff;
-    z-index: -1;
+#mainNav .navbar-menu1 > div {
+	position: absolute;
+	width: 0%; 
+	height: 100%;
+	left: 0;
+	background-color: #fff;
+	z-index: -1;
 }
 #mainNav .navbar-menu2 > div {
-    position: absolute;
-    width: 50%; 
-    height: 100%;
-    right: 0;
-    background-color: #fff;
-    z-index: -1;
+	position: absolute;
+	width: 0%; 
+	height: 100%;
+	right: 0;
+	background-color: #fff;
+	z-index: -1;
 }
 #mainNav .navbar-nav>li>a {
-    color: var(--font_color);
-    width: 100%;
-    height: 100%;
-    font-size: 12px;
-    text-align: center;
-    font-weight: var(--weight_bold);
-    font-family: 'Quicksand', 'Helvetica', 'Arial', 'sans-serif';
-    letter-spacing: 2px;
-    padding: 10px 15px;
-    border-radius: 50px;
-    text-transform: uppercase;
-    transition: 0.3s ease-in;
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	font-size: 12px;
+	text-align: center;
+	font-weight: var(--weight_bold);
+	font-family: 'Quicksand', 'Helvetica', 'Arial', 'sans-serif';
+	letter-spacing: 2px;
+	padding: 10px 15px;
+	border-radius: 50px;
+	text-transform: uppercase;
+	transition: 0.3s ease-in;
 }
 #mainNav .navbar-nav>li>a:hover {
-    color: #fff;
-    background-color: var(--accent);
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    border-radius: 50px;
-    transition: 0.3s ease-in;
+	color: #fff;
+	background-color: var(--accent);
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	transition: 0.3s ease-in;
 }
 #mainNav .navbar-nav>li>a.active {
-    color: var(--accent);
-    font-weight: var(--weight_bold);
-    background-color: transparent;
+	color: var(--accent);
+	font-weight: var(--weight_bold);
+	background-color: transparent;
 }
 
 #mainNav .navbar-nav>li {
-    text-align: center;
-    padding: 2px 0 0 0;
-    margin: 1px;
+	text-align: center;
+	padding: 2px 0 0 0;
+	margin: 1px;
 }
 #mainNav .nav-menu-holder{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    top: 20px;
-    right: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	top: 20px;
+	right: 20px;
 }
 #mainNav .nav-menu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    border: 0;
-    background-color: #fff;
-    border-radius: 30px;
-    width: 0px;
-    height: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	border: 0;
+	background-color: #fff;
+	border-radius: 30px;
+	width: 0px;
+	height: 0px;
 }
 #mainNav .navbar-toggler {
-    border: 0;
-    width: 50px;
-    height: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    cursor: pointer;
-    transition: transform .4s ease-in;
-    margin: auto;
+	border: 0;
+	width: 50px;
+	height: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	cursor: pointer;
+	transition: transform .4s ease-in;
+	margin: auto;
 }
 #mainNav .navbar-toggler.open {
-    transform: rotate(-225deg);  
-    transition: transform .4s ease-in;
+	transform: rotate(-225deg);  
+	transition: transform .4s ease-in;
 }
 #mainNav .navbar-toggler .line-menu {
-    background-color: #000;
-    border-radius: 5px;
-    width: 100%;
-    height: 2px;
+	background-color: #000;
+	border-radius: 5px;
+	width: 100%;
+	height: 2px;
 }
 #mainNav .navbar-toggler .line-menu.half {
-    width: 50%;
+	width: 50%;
 }
 #mainNav .navbar-toggler .line-menu.start {
-    transition: transform .4s ease-in;
-    transform-origin: right;
+	transition: transform .4s ease-in;
+	transform-origin: right;
 }
 #mainNav .navbar-toggler.open .line-menu.start {
-    transform: rotate(-90deg) translateX(3px);
+	transform: rotate(-90deg) translateX(3px);
 }
 #mainNav .navbar-toggler .line-menu.end {
-    align-self: flex-end;
-    transition: transform .4s ease-in;
-    transform-origin: left;
+	align-self: flex-end;
+	transition: transform .4s ease-in;
+	transform-origin: left;
 }
 #mainNav .navbar-toggler.open .line-menu.end {
-    transform: rotate(-90deg) translateX(-3px);
+	transform: rotate(-90deg) translateX(-3px);
 }
 
-@media (max-width: 992px) 
+@media (max-width: 1100px) 
 {
-    #mainNav .brand_pane {
-        border-radius: 0 35px 35px 0;
-        left: 0;
-        margin: 15px 0 0 -10px;
-        transition: .6s cubic-bezier(0.86, 0, 0.07, 1);
-    }
-    #mainNav .nav-menu{
-        display: flex;
-        width: 60px;
-        height: 60px;
-        transform: rotate(720deg);  
-        transition: all .6s cubic-bezier(0.53, 0.09, 0, 0.97);
-    }
-    
+	#mainNav .collapse {
+		display: none !important;
+	}
+	#mainNav .brand_pane {
+		border-radius: 0 35px 35px 0;
+		left: 0;
+		margin: 15px 0 0 -10px;
+		transition: .6s cubic-bezier(0.86, 0, 0.07, 1);
+	}
+	#mainNav .nav-menu{
+		display: flex;
+		width: 60px;
+		height: 60px;
+		transform: rotate(720deg);  
+		transition: all .6s cubic-bezier(0.53, 0.09, 0, 0.97);
+	}
+
 }
