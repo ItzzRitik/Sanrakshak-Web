@@ -19,7 +19,7 @@ a {
 }
 
 .cover_page1 {
-	background: url("assets/home2.jpg") center;
+	background: url("assets/home.jpg") center;
 }
 .cover_page2 {
 	background: url("assets/page1.jpg") center;
@@ -37,16 +37,25 @@ a {
 	background-size: cover;
 }
 .cover_data{
-	width:70%;
+	maax:70%;
 	margin: auto;
 }
 .cover_data>h1{
 	color: #fff;
 	font-size: 50px;
+	text-align: center;
 	font-weight: var(--weight_normal);
 }
+.cover_data>h1>span,.cover_data>h1>span>sub{
+	font-size: 120px;
+	font-weight: var(--weight_bold);
+}
 .cover_data>p{
+	max-width: 80%;
 	color: #fff;
+	font-size: 16px;
+	font-weight: var(--weight_thin);
+	margin: auto;
 }
 .heading {
 	font-family: 'Quicksand';
@@ -188,8 +197,8 @@ a {
 #mainNav .navbar-brand>.logo {
 	width: 50px;
 	height: 50px;
-	padding: 2px;
-	margin: -2px 0 0 5px;
+	padding: 5px;
+	margin: -2.5px 0 0 3px;
 	float: left;
 }
 
@@ -199,7 +208,7 @@ a {
 	font-weight: var(--weight_bold);
 	color: var(--font_color); 
 	float: left;
-	margin: 4px 15px 0 5px;
+	margin: 4px 10px 0 10px;
 }
 
 #mainNav .navbar-menu1 {
@@ -337,6 +346,12 @@ a {
 {
 	#mainNav .collapse {
 		display: none !important;
+	}
+	.cover_data>h1{
+		font-size: 40px;
+	}
+	.cover_data>h1>span,.cover_data>h1>span>sub{
+		font-size: 80px;
 	}
 	#mainNav .brand_pane {
 		border-radius: 0 35px 35px 0;
