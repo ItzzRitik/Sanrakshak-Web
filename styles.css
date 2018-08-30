@@ -37,6 +37,16 @@ a {
 	padding: 0 20px;
 	background-size: cover;
 }
+.cover_data{
+	width:70%;
+	margin: auto;
+}
+.cover_data>h1{
+	color: #fff;
+}
+.cover_data>p{
+	color: #fff;
+}
 .heading {
 	font-family: 'Quicksand';
 	-webkit-font-smoothing: antialiased;
@@ -154,7 +164,7 @@ a {
 #mainNav .brand_pane {
 	position: absolute;
 	pointer-events: none;
-	width: 280px;
+	width: 290px;
 	height: 65px;
 	padding: 5px;
 	border-radius: 35px;
