@@ -19,6 +19,7 @@
   perspective: 1000px;
   transform-style: preserve-3d;
   padding-top: 8.5vh;
+  margin-bottom: -15px;
 }
 
 .slider::before,
