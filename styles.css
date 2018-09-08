@@ -17,6 +17,7 @@ html {
 a {
 	text-decoration: none !important;
 }
+
 .cover_page1 {
 	background: url("assets/home.jpg") center;
 }
@@ -35,24 +36,23 @@ a {
 	background-size: cover;
 }
 .cover_data1 {
-	maax: 70%;
 	margin: auto;
 }
 .cover_data1>h1 {
 	color: #fff;
-	font-size: 50px;
+	font-size: 4vw;
 	text-align: center;
 	font-weight: var(--weight_normal);
 }
 .cover_data1>h1>span,
 .cover_data1>h1>span>sub {
-	font-size: 120px;
+	font-size: 10vw;
 	font-weight: var(--weight_bold);
 }
 .cover_data1>p {
 	max-width: 80%;
 	color: #fff;
-	font-size: 16px;
+	font-size: 1.18vw;
 	font-weight: var(--weight_thin);
 	margin: auto;
 }
@@ -347,13 +347,6 @@ a {
 	#mainNav .collapse {
 		display: none !important;
 	}
-	.cover_data>h1 {
-		font-size: 40px;
-	}
-	.cover_data>h1>span,
-	.cover_data>h1>span>sub {
-		font-size: 80px;
-	}
 	#mainNav .brand_pane {
 		border-radius: 0 35px 35px 0;
 		left: 0;
@@ -372,22 +365,33 @@ a {
 		transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 	}
 }
-@media only screen and (max-width: 760px) {
-	.cover_data>h1 {
-		font-size: 30px;
+@media (max-width: 880px) {
+	.cover_data1>h1 {
+		font-size: 5.1vw;
 	}
-	.cover_data>h1>span,
-	.cover_data>h1>span>sub {
-		font-size: 60px;
+	.cover_data1>h1>span,
+	.cover_data1>h1>span>sub {
+		font-size: 12.5vw;
+	}
+	.cover_data1>p {
+		font-size: 1.55vw;
+	}
+}
+@media only screen and (max-width: 760px) {
+	.cover_data1>p {
+		font-size: 1.65vw;
 	}
 }
 @media only screen and (max-width: 650px) {
-	.cover_data>h1 {
-		font-size: 20px;
+	.cover_data1>h1 {
+		font-size: 5.1vw;
 	}
-	.cover_data>h1>span,
-	.cover_data>h1>span>sub {
-		font-size: 40px;
+	.cover_data1>h1>span,
+	.cover_data1>h1>span>sub {
+		font-size: 12.5vw;
+	}
+	.cover_data1>p {
+		font-size: 1.55vw;
 	}
 	#mainNav .brand_pane {
 		width: 80px;
