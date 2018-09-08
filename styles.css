@@ -268,8 +268,8 @@ a {
 	transform: scale(1.3);
 }
 .menu.open .menu-circle {
-	transform: scale(calc(45));
-	transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+	transform: scale(45);
+	transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 .menu-link {
 	width: 100%;
