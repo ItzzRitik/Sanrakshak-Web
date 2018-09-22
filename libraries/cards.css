@@ -11,8 +11,9 @@
   width:380px;
   height:380px;
   margin:10px;
-  background-color:#99aeff;
+  border-radius: 10px;
   display:inline-block;
+  background-color: #222;
   background-size:cover;
   position:relative;
   cursor:pointer;
