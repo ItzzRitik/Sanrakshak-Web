@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Quicksand:200,400,500|Raleway:500);
+@import url(https://fonts.googleapis.com/css?family=Quicksand:200,400,500|Raleway:200);
 .wrap {
   width: 100%;
   display: flex;
@@ -46,7 +46,7 @@
 .tile h2 {
   font-family: Quicksand;
   -webkit-font-smoothing: antialiased;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 200;
   transform: translateX(200px);
   margin: -10px 10px 0 10px;
