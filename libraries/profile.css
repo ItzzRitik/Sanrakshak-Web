@@ -16,7 +16,6 @@
   overflow: hidden;
   max-height: 490px;
   margin: 20px 1.6%;
-  min-width: 230px;
   max-width: 315px;
   width: 100%;
   color: #ffffff;
@@ -115,15 +114,47 @@
     font-size: 1.6rem;
   }
   .profile_card h2 span {
-    font-size: 0.5em;
+    font-size: 0.55em;
   }
   .profile_card p {
-    font-size: 0.5em;
+    font-size: 0.55em;
+    line-height: 2;
   }
   .profile_card figcaption a {
     width: 40%;
-    margin: 10px 2.5%;
+    margin: 5px 4%;
     padding: 3px;
     font-size: 0.6em;
+  }
+  .profile_card {
+    border-radius: 2px;
+    margin: 20px 0.8%;
+  }
+}
+@media (max-width: 735px) {
+  .profile_card h2 {
+    font-size: 1.1rem;
+  }
+  .profile_card h2 span {
+    font-size: 0.7em;
+  }
+  .profile_card p {
+    line-height: 1.5;
+  }
+  .profile_card figcaption a {
+    padding: 0 3px;
+    font-size: 0.4em;
+  }
+  .profile_card {
+    margin: 20px 0;
+    border-radius: 0px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0);
+  }
+}
+@media (max-width: 590px) {
+  .profile_card {
+    margin: 20px 0;
+    border-radius: 0px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0);
   }
 }
