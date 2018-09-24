@@ -14,7 +14,6 @@
   position: relative;
   float: left;
   overflow: hidden;
-  height: 75vh;
   max-height: 490px;
   margin: 20px 1.6%;
   min-width: 230px;
@@ -38,10 +37,8 @@
   vertical-align: top;
   opacity: 0.85;
 }
-.profile_card img {
-  max-width: 100%;
-  vertical-align: top;
-  opacity: 0.85;
+.profile_card .cover {
+  margin-top: calc(73vh - 490px);
 }
 .profile_card figcaption {
   width: 100%;
@@ -111,4 +108,6 @@
   font-size: 0.8em;
   letter-spacing: 1px;
   opacity: 0.8;
+}
+@media (max-width: 875px) {
 }
