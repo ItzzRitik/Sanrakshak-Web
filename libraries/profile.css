@@ -94,6 +94,7 @@
 }
 .profile_card h2 {
   margin: 0 0 5px;
+  font-size: 2rem;
   font-weight: 300;
 }
 .profile_card h2 span {
@@ -110,4 +111,19 @@
   opacity: 0.8;
 }
 @media (max-width: 875px) {
+  .profile_card h2 {
+    font-size: 1.6rem;
+  }
+  .profile_card h2 span {
+    font-size: 0.5em;
+  }
+  .profile_card p {
+    font-size: 0.5em;
+  }
+  .profile_card figcaption a {
+    width: 40%;
+    margin: 10px 2.5%;
+    padding: 3px;
+    font-size: 0.6em;
+  }
 }
