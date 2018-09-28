@@ -39,7 +39,7 @@ profile_info[1].addEventListener('click',function(e){
 	{
 		playing = true;
 		anime({
-			targets: profile_card[0],
+			targets: profile_card[1],
 			scale: [{value: 1}, {value: 1.15}, {value: 1, delay: 100}],
 			rotateY: {value: '+=180', delay: 100},
 			easing: 'easeInOutSine',
@@ -55,7 +55,7 @@ profile_info[2].addEventListener('click',function(e){
 	{
 		playing = true;
 		anime({
-			targets: profile_card[0],
+			targets: profile_card[2],
 			scale: [{value: 1}, {value: 1.15}, {value: 1, delay: 100}],
 			rotateY: {value: '+=180', delay: 100},
 			easing: 'easeInOutSine',
