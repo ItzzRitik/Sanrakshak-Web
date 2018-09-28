@@ -24,6 +24,15 @@
   background-color: #141414;
   border-radius: 5px;
   box-shadow: 0 35px 77px -17px rgba(0, 0, 0, 0.44);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.profile_card_flip{
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  transform: rotateY(180deg);
+  transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .profile_card * {
   -webkit-box-sizing: border-box;
