@@ -8,6 +8,7 @@
     bottom: 0;
 }
 .back {
+    background-color: #ffffff;
     transform: rotateY(180deg);
 }
 .profile_pane {
